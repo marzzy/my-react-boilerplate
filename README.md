@@ -1,4 +1,7 @@
 #  My React Boilerplate
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/marzzy/my_new_project/blob/master/.LICENSE.md)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+
 
 ## Eslint Config
 
@@ -19,4 +22,4 @@ it in detailes [here](./LINTERRULES.md)
 ## License
 
 This project is licensed under the terms of the 
-[GPLv3 (GNU General Public License v3.0)](./LICENSE.md) license.
+[AGPLv3 (GNU General Public License v3.0)](./LICENSE.md) license.
