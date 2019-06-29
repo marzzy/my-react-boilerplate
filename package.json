@@ -1,16 +1,15 @@
 {
-  "name": "myproject",
+  "name": "my-react-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "this project made to be a simple boilerplate for react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["my-react-boilerplate","webpack-conf","ssr-express"],
+  "author": "marzzy.m@gmail.com",
+  "license": "GPLv3",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
