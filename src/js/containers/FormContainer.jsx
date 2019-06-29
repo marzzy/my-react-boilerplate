@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import Input from '../components/Input.jsx';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Input from "../components/Input.jsx";
 
 class FormContainer extends Component {
   constructor() {
