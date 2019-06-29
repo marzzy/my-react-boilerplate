@@ -13,8 +13,15 @@
     "webpack-conf",
     "ssr-express"
   ],
-  "author": "marzzy.m@gmail.com",
-  "license": "AGPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//marzzy/my-react-boilerplate.git"
+  },
+  "homepage": "https://github.com/marzzy/my-react-boilerplate/blob/master/README.md",
+  "url": "https://github.com/marzzy/my-react-boilerplate/issues",
+  "email": "marzzy.m@gmail.com",
+  "author": "Marzzy Mogh",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/preset-env": "7.4.5",

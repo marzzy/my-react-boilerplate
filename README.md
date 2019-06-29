@@ -1,5 +1,5 @@
 #  My React Boilerplate
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/marzzy/my_new_project/blob/master/.LICENSE.md)
+[![License: AGPL v3](https://img.shields.io/badge/license-GPL%20(%3E%3D%203)-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
 
@@ -10,8 +10,10 @@ prettier rules in addition to that some customize rules that tell about
 it in detailes [here](./LINTERRULES.md)
 
 
-# Scripts
+## Scripts
+- `npm run start`: script to run project in develop mode. 
 - `npm run lint`: script to run ESLint.
+- `npm run build`: script to build project for production. 
 
 
 ## Authors
