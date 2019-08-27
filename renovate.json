@@ -5,7 +5,7 @@
   "baseBranches": [
     "development"
   ],
-  "automerge": true,
+  "masterIssue": true,
   "labels": [
     "type: dependencies",
     "renovate"
