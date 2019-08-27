@@ -23,6 +23,5 @@
       "packagePatterns": ["webpack"],
       "groupName": "webpack"
     }
-  ],
-  // "schedule": ["every weekend"]
+  ]
 }
