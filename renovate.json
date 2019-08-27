@@ -6,7 +6,6 @@
     "development"
   ],
   "masterIssue": true,
-  "automerge": true,
   "labels": [
     "type: dependencies",
     "renovate"
@@ -24,7 +23,5 @@
       "packagePatterns": ["webpack"],
       "groupName": "webpack"
     }
-  ],
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0
+  ]
 }
