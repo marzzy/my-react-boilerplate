@@ -5,6 +5,7 @@
   "baseBranches": [
     "development"
   ],
+  "automerge": true,
   "labels": [
     "type: dependencies",
     "renovate"
