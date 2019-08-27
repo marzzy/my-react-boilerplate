@@ -6,6 +6,7 @@
     "development"
   ],
   "masterIssue": true,
+  "automerge": true,
   "labels": [
     "type: dependencies",
     "renovate"
