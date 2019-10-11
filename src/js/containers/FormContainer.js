@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import Input from "../components/Input.jsx";
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import Input from '../components/Input';
 
 class FormContainer extends Component {
   constructor() {
     super();
     this.state = {
-      seo_title: ""
+      seoTitle: '',
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -16,22 +16,25 @@ class FormContainer extends Component {
   }
 
   render() {
-    const { seo_title } = this.state;
+    const { seoTitle } = this.state;
     return (
       <form id="article-form">
         <Input
           text="SEO title"
-          label="seo_title"
+          label="seoTitle"
           type="text"
-          id="seo_title"
-          value={seo_title}
+          id="seoTitle"
+          value={seoTitle}
           handleChange={this.handleChange}
         />
+        <p>
+          {seoTitle}
+        </p>
       </form>
     );
   }
 }
 export default FormContainer;
 
-const wrapper = document.getElementById("root");
-wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
+const wrapper = document.getElementById('root');
+ReactDOM.render(<FormContainer />, wrapper);
