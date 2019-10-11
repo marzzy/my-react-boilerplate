@@ -2,18 +2,27 @@
   "extends": [
     "config:base"
   ],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  },
   "baseBranches": [
     "development"
   ],
+  "automerge": true,
   "labels": [
     "type: dependencies",
     "renovate"
   ],
-  "masterIssue": true,
-  "prConcurrentLimit": 3,
-  "prHourlyLimit": 2
+  "packageRules": [
+    {
+      "packagePatterns": ["eslint"],
+      "groupName": "eslint"
+    },
+    {
+      "packagePatterns": ["babel"],
+      "groupName": "babel"
+    },
+    {
+      "packagePatterns": ["webpack"],
+      "groupName": "webpack"
+    }
+  ],
+  "schedule": ["every weekend"]
 }
