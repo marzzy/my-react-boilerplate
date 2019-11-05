@@ -23,9 +23,9 @@
   "author": "Marzzy Mogh",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
-    "@babel/core": "7.6.4",
-    "@babel/preset-env": "7.6.3",
-    "@babel/preset-react": "7.6.3",
+    "@babel/core": "7.7.0",
+    "@babel/preset-env": "7.7.1",
+    "@babel/preset-react": "7.7.0",
     "babel-eslint": "10.0.3",
     "babel-loader": "8.0.6",
     "eslint": "6.5.1",
