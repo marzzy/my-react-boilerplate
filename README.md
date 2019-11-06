@@ -11,7 +11,7 @@ We respect airbnb rules.
 - `npm run lint`: script to run ESLint.
 - `npm run build`: script to build project for production. 
 
-## Boilerplate Packages 
+## Boilerplate Packages
 > webpack:
 - `webpack` as module bundler.
 - `webpack-cli` to use webpack in the command line.
@@ -23,13 +23,18 @@ We respect airbnb rules.
 - `babel-preset-env` to preset which helps babel to convert ES6, ES7 and ES8 code to ES5.
 - `babel-preset-react` to preset which Transforms JSX to JavaScript.
 - `babel-eslint` to lint ALL valid Babel code with ESLint. 
-> loaders: 
+- `babel-jest` dependency of jest
+> loaders:
 - `css-loader` is used to load and bundle all of the CSS files into one file. 
 - `style-loader` will add all of the styles inside the style tag of the document.
 - `html-loader` to exports HTML as string. HTML is minimized when the compiler demands.
 - `eslint-loader` eslint loader for webpack.
 > eslint:
 - `eslint-config-airbnb`: It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, and `eslint-plugin-jsx-a11y`.
+> jest: 
+- `jest` for tests
+- `react-test-renderer` for rendering snapshots testing
+
 
 ## Authors
 
