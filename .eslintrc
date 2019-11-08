@@ -12,6 +12,13 @@
       "extensions": [".js", ".jsx"]
     }]
   },
+  "globals": {
+    "shallow": true,
+    "mount": true,
+    "render": true,
+    "expect": true,
+    "test": true
+  },
   "env": {
     "browser": true,
     "es6": true
