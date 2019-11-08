@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FormContainer from './js/containers/App';
+import App from './App/general/App';
 
 const wrapper = document.getElementById('root');
-ReactDOM.render(<FormContainer />, wrapper);
+ReactDOM.render(<App />, wrapper);
