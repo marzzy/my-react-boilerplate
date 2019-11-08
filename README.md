@@ -10,6 +10,7 @@ We respect airbnb rules.
 - `npm run start`: script to run project in develop mode. 
 - `npm run lint`: script to run ESLint.
 - `npm run build`: script to build project for production. 
+- `npm run test`: script to run tests and show coverage( it also make new directory named coverage). 
 
 ## Boilerplate Packages
 > webpack:
@@ -31,9 +32,10 @@ We respect airbnb rules.
 - `eslint-loader` eslint loader for webpack.
 > eslint:
 - `eslint-config-airbnb`: It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, and `eslint-plugin-jsx-a11y`.
-> jest: 
-- `jest` for tests
-- `react-test-renderer` for rendering snapshots testing
+> test: 
+- `jest` as a test runner, assertion library, and mocking library.
+- `react-test-renderer` for rendering snapshots testing (recomended by jest).
+- `enzyme` to provide additional testing utilities to interact with elements.
 
 
 ## Authors
